@@ -21,7 +21,7 @@ let paintGreetings = (username) => {
 }
 
 const savedUserName = localStorage.getItem(UserName_key)
-console.log(savedUserName)
+//console.log(savedUserName)
 
 if (savedUserName == null) {
     loginForm.classList.remove(hidden)
